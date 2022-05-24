@@ -1,4 +1,2 @@
-<h1>Progress Tracker:</h1>
-<ul>
-<li>5/23/22: Mainly a research day. Spent most of the time setting up a basic frontend rough draft, and trying to figure out what needs to be implemented into this application. I probably should have done just a bit more research too, but I'm really happy with the progress so far. A lot of good progress in just the first day.</li>
-</ul>
+Progress Tracker:
+5/23/22: Mainly a research day. Spent most of the time setting up a basic frontend rough draft, and trying to figure out what needs to be implemented into this application. I probably should have done just a bit more research too, but I'm really happy with the progress so far. A lot of good progress in just the first day. I am stuck on figuring out how to make the side navbar go all the way down to the footer area, but will research tomorrow. Also need to figure out working on these containers that will hold things like the project section or the ticket section in the dashboard.
