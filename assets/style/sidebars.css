@@ -7,6 +7,11 @@ html {
   height: -webkit-fill-available;
 }
 
+#NavBar {
+  width: 280px;
+  float: left;
+}
+
 main {
   height: 100vh;
   height: -webkit-fill-available;
