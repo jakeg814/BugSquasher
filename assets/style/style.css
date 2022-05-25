@@ -1,5 +1,12 @@
-#Dashboard {
+#GreenBG {
   background-color: darkgreen;
   padding: 1em;
-  text-align: center;
+  height: 25vh;
+}
+
+#GreenBG h1 {
+  padding-left: 15vw;
+}
+body {
+  background-color: beige;
 }

@@ -12,7 +12,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- navbar style -->
     <link href="./assets/style/sidebars.css" rel="stylesheet">
+    <!-- general style -->
     <link href="./assets/style/style.css" rel="stylesheet">
   </head>
   <body>
@@ -31,7 +33,7 @@
       <span class="fs-4">Bug Squasher</span>
     </a>
     <hr />
-    <ul class="nav nav-pills flex-column mb-auto">
+    <ul class="nav nav-pills flex-column mb-3" style="margin-bottom: 0;">
       <li class="nav-item">
         <a href="./index.html" class="nav-link active" aria-current="page">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
@@ -67,22 +69,71 @@
       </li>
     </ul>
     <hr />
-    <button type="button" class="btn btn-danger">Log Out</button>
-      </div>
+    <form >
+      <button type="submit" class="btn btn-danger" formaction="./signin.html">Log Out</button>
+    </form>
+    </div>
       <!-- /Nav -->
   <!-- Body -->
-  <div class="container-fluid" id="Dashboard">
+  <div class="container-fluid" id="GreenBG">
     <h1>
       Dashboard
     </h1>
-    <h1>Bug Squasher</h1>
-    <h2>The ultimate issue tracker</h2>
   </div>
-  <div class="container-fluid" id="Projects" >
-    <h3>Projects</h3>
+  <br>
+  <div class="container" id="Projects" >
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Subheading</div>
+          Content for list item
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Subheading</div>
+          Content for list item
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Subheading</div>
+          Content for list item
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+      </li>
+    </ol>
   </div>
-  <div class="container-fluid" id="Tickets">
-    <h3>Tickets</h3>
+  <br>
+  <div class="container" id="Tickets">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+    <div class="card" aria-hidden="true">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title placeholder-glow">
+          <span class="placeholder col-6"></span>
+        </h5>
+        <p class="card-text placeholder-glow">
+          <span class="placeholder col-7"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-6"></span>
+          <span class="placeholder col-8"></span>
+        </p>
+        <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+      </div>
+    </div>
   </div>
 </main>
   <!-- Option 1: Bootstrap Bundle with Popper -->
