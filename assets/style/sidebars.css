@@ -1,7 +1,8 @@
 #NavBar {
-  width: 280px;
+  width: 250px;
   height: 100vh;
   float: left;
+  position: fixed;
 }
 #NavBar img {
   height: auto;
